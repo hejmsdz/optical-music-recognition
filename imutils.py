@@ -10,7 +10,7 @@ import cv2
 from  matplotlib import pyplot as plt
 
 def imshow(im):
-    plt.figure(figsize=(12, 12))
+    plt.figure(figsize=(15, 15))
     if len(im.shape) == 3:
         plt.imshow(im)
     else:
